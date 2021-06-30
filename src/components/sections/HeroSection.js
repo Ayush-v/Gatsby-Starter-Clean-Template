@@ -1,10 +1,15 @@
 import React from "react"
+import styled from "styled-components"
 
 export default function HeroSection() {
   return (
-    <div>
+    <Wrapper>
       <h1>Ayush</h1>
       <p>this is your clean template</p>
-    </div>
+    </Wrapper>
   )
 }
+
+const Wrapper = styled.div`
+color: white;
+`
