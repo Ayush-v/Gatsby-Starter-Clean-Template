@@ -10,6 +10,4 @@ export default function HeroSection() {
   )
 }
 
-const Wrapper = styled.div`
-color: white;
-`
+const Wrapper = styled.div``
